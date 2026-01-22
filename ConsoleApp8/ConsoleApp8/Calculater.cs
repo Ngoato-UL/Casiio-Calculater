@@ -199,8 +199,33 @@ namespace ConsoleApp8
             }
         }
 
+        // Percentage Calculation
+        public void Percentage()
+        {
+            Console.WriteLine("Enter the number:");
+            double num = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the percentage:");
+            double percentage = double.Parse(Console.ReadLine());
+
+            double result = (num * percentage) / 100;
+            Console.WriteLine($"Result: {percentage}% of {num} = {result}");
+        }
+
+        // Absolute Value
+        public void AbsoluteValue()
+        {
+            Console.WriteLine("Enter a number:");
+            double num = double.Parse(Console.ReadLine());
+            double result = Math.Abs(num);
+            Console.WriteLine($"Result: |{num}| = {result}");
+        }
+    } // end of class
+} // end of namespace
+
 } // end of class
     } // end of namespace
+
 
 
 
