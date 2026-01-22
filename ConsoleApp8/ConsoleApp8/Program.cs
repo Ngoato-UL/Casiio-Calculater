@@ -7,7 +7,7 @@ namespace ConsoleApp20
     {
         static void Main(string[] args)
         {
-            Calculator calc = new Calculator();
+            Calculater calc = new Calculater();
             bool running = true;
 
             while (running)
@@ -100,6 +100,7 @@ namespace ConsoleApp20
         }
     }
 }
+
 
 
 
