@@ -67,7 +67,102 @@ namespace ConsoleApp8
         double result = num1 / num2;
         Console.WriteLine($"Result: {num1} ÷ {num2} = {result}");
     }
-}
-    }
-}
+         public void SquareRoot()
+        {
+            Console.WriteLine("Enter a number:");
+            double num = double.Parse(Console.ReadLine());
+
+            // check for negative input
+            if (num < 0)
+            {
+                Console.WriteLine("Error: Cannot calculate square root of a negative number.");
+            }
+            else
+            {
+                double result = Math.Sqrt(num);
+                Console.WriteLine($"Result: √{num} = {result}");
+            }
+        }
+
+        public void Power()
+        {
+            Console.WriteLine("Enter base number:");
+            double baseNum = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter exponent:");
+            double exponent = double.Parse(Console.ReadLine());
+
+            double result = Math.Pow(baseNum, exponent);
+            Console.WriteLine($"Result: {baseNum}^{exponent} = {result}");
+        }
+
+        // ln - natural log
+        public void naturalLog()
+        {
+            Console.WriteLine("Enter a number:");
+            double num1 = double.Parse(Console.ReadLine());
+
+            // check if input is positive
+            if (num1 <= 0)
+            {
+                Console.WriteLine("Error: Natural log is undefined for non-positive numbers.");
+            }
+            else
+            {
+                double result = Math.Log(num1);
+                Console.WriteLine($"Result: ln({num1}) = {result}");
+            }
+        }
+        // add method 
+         public void SquareRoot()
+ {
+     Console.WriteLine("Enter a number:");
+     double num = double.Parse(Console.ReadLine());
+
+     // check for negative input
+     if (num < 0)
+     {
+         Console.WriteLine("Error: Cannot calculate square root of a negative number.");
+     }
+     else
+     {
+         double result = Math.Sqrt(num);
+         Console.WriteLine($"Result: √{num} = {result}");
+     }
+ }
+
+ public void Power()
+ {
+     Console.WriteLine("Enter base number:");
+     double baseNum = double.Parse(Console.ReadLine());
+
+     Console.WriteLine("Enter exponent:");
+     double exponent = double.Parse(Console.ReadLine());
+
+     double result = Math.Pow(baseNum, exponent);
+     Console.WriteLine($"Result: {baseNum}^{exponent} = {result}");
+ }
+
+ // ln - natural log
+ public void naturalLog()
+ {
+     Console.WriteLine("Enter a number:");
+     double num1 = double.Parse(Console.ReadLine());
+
+     // check if input is positive
+     if (num1 <= 0)
+     {
+         Console.WriteLine("Error: Natural log is undefined for non-positive numbers.");
+     }
+     else
+     {
+         double result = Math.Log(num1);
+         Console.WriteLine($"Result: ln({num1}) = {result}");
+     }
+ }
+
+} // end of class
+    } // end of namespace
+
+
 
