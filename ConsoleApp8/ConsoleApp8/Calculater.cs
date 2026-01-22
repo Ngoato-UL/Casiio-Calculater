@@ -160,9 +160,48 @@ namespace ConsoleApp8
          Console.WriteLine($"Result: ln({num1}) = {result}");
      }
  }
+          // log10 - base 10 log
+        public void Log10()
+        {
+            Console.WriteLine("Enter first number:");
+            double num1 = double.Parse(Console.ReadLine());
+
+            // check if input is positive
+            if (num1 <= 0)
+            {
+                Console.WriteLine("Error: Log base 10 is undefined for non-positive numbers.");
+            }
+            else
+            {
+                double result = Math.Log10(num1);
+                Console.WriteLine($"Result: log10({num1}) = {result}");
+            }
+        }
+
+        // custom log with user-defined base
+        public void CustomLog()
+        {
+            Console.WriteLine("Enter first number:");
+            double num1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the base number");
+            double baseNum = double.Parse(Console.ReadLine());
+
+            // check if input is valid
+            if (num1 <= 0 || baseNum <= 1)
+            {
+                Console.WriteLine("Error: Logarithm is undefined for non-positive numbers and base must be greater than 1.");
+            }
+            else
+            {
+                double result = Math.Log(num1, baseNum);
+                Console.WriteLine($"Result: log base {baseNum} of {num1} = {result}");
+            }
+        }
 
 } // end of class
     } // end of namespace
+
 
 
 
