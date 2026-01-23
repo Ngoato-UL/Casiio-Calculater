@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleApp8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6ea1db9b47fa534110e4925f7c1e2542c20596e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef5b6efba47a236d35e9435217ee3eae82b1a625")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleApp8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleApp8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
